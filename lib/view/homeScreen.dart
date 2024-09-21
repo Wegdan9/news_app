@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
      var x = Provider.of<ArticlesViewModel>(context).getArticles;
     print(x.first.title);
     return  Scaffold(
-      body: Text(' '),
+      body: Text(''),
     );
   }
 }
